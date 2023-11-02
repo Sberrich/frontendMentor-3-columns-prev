@@ -4,16 +4,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        almostwhite: 'hsl(0, 0%, 98%)',
-        MediumGray: 'hsl(0, 0%, 41%)',
-        AlmostBlack: 'hsl(0, 0%, 8%)',
-
+        Brightorange: 'hsl(31, 77%, 52%)',
+        Darkcyan: 'hsl(184, 100%, 22%)',
+        Verydarkcyan: 'hsl(179, 100%, 13%)',
+        Transparenwhite: 'hsla(0, 0%, 100%, 0.75)',
+        Verylightgray: 'hsl(0, 0%, 95%)',
       },
-      fontFamily:{
-        Epilogue: ['Epilogue']
+      fontFamily: {
+        lexenddeca: ['"Lexend Deca"', 'sans-serif'],
+        shoulders: ['"Big Shoulders Display"', 'sans-serif'],
+      },
+      fontSize:{
+        body: '15px'
+      },
+      fontWeight: {
+        primary: '400',
+        secondary: '700'
       }
-
     },
   },
   plugins: [],
 }
+

@@ -1,15 +1,15 @@
 {
-  "name": "intro-section-with-dropdown-navigation-main",
+  "name": "3-column-preview-card-component-main",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build -i src/styles.css -o public/output.css --watch"
+    "build-css": "tailwindcss build -i ./src/styles.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "tailwindcss": "^3.3.5"
   }
 }
